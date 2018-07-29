@@ -4,7 +4,6 @@
     android:id="@+id/draw_insets_frame_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:fitsSystemWindows="true"
     tools:context=".ui.ArticleDetailActivity">
 
     <android.support.design.widget.AppBarLayout
@@ -32,7 +31,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="top"
-            android:background="@color/semiTransparent"
             app:layout_collapseMode="pin"
             android:paddingTop="24dp"
             app:contentInsetStart="0dp"
